@@ -1,0 +1,6 @@
+@Tripletex.Api_HostAddress = http://localhost:5267
+
+GET {{Tripletex.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
