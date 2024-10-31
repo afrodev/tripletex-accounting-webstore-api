@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tripletex.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a693c515b38ae2c3279ec49affad95ca474fd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87c8a97f99137ccd4b6542cb12d0f7042e9f01c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tripletex.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tripletex.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
