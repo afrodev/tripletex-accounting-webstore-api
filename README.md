@@ -2,12 +2,6 @@
 
 ### This project was started on October 30th 2024
 
-> *PS: nowhere in the Tripletex docs did they mention the date format so I struggled with making the sessiontoken. 
->
->Apparently it’s a whole ISO 8601 standard with* **YYYY-MM-DDThh:mm:ss
->
->I didn’t know that as new engineer 😢**
-
 
 ## The general flow
 
