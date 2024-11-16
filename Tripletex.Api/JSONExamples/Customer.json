@@ -1,0 +1,14 @@
+This is not a real json file for import
+This is the general format of data needed for:
+POST Customer 
+{
+    "name": "Dude Purchase",
+    "email": "dude.purchase@example.com",
+    "phoneNumber": "+4712345678",
+  
+    "postalAddress": {
+      "addressLine1": "Eksempelstien 1",
+      "postalCode": "0000",
+      "city": "Oslo"
+    }
+  }

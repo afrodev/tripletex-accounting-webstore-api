@@ -21,7 +21,10 @@ In norway, businesses are obliged to report on all sales on a webstore as if the
     2. **Gross** (before tax)
     3. **Tax percentage** (default 25%)
     4. **Net** (after tax)
-4. Payment from service (Stripe cuz it can do a CSV export)
+4. After that, Tripletex requires the “Order” to be made into an actual “Invoice”
+    1. Docs say: POST/invoice will create invoice. Related Order and OrderLines can be created first, or included as new objects inside the Invoice.
+    2. Here we specify that we only have “pre-paid” invoices cuz it’s a webstore lol
+5. Payment from service (Stripe cuz it can do a CSV export)
     1. Export from Stripe for month
     2. Import to Bookkeeping for month
         1. Specify bank account that stripe is sending to.
@@ -36,6 +39,8 @@ The customer number from the online store does not need to follow the same seque
 - We have already collected the data from said API
 - We are NOT connecting the products to the orderline. We are ONLY inputting the orderline info directly into a POST invoice request in Tripletex.
 - Payment service with CSV export
+- Webstore customers are private individuals and not companies
+    - NO EHF INVOICES
 
 ## Disse tjukke er obligatoriske for tripletex. Resten er kun for mitt tilfelle
 
